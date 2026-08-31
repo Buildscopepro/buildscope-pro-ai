@@ -1,0 +1,27 @@
+{
+  "name": "buildscope-backend",
+  "version": "1.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node src/selfcheck.js",
+    "push-worker": "node src/push-worker.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "helmet": "latest",
+    "pino": "latest",
+    "pino-http": "latest",
+    "zod": "latest",
+    "openai": "latest",
+    "stripe": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
