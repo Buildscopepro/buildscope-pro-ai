@@ -1,0 +1,67 @@
+PASS  Version is 5.15.0
+PASS  Android package configured — com.buildscopeproai.app
+PASS  iOS bundle identifier configured — com.buildscopeproai.app
+PASS  Preview APK profile exists
+PASS  Production AAB profile exists
+PASS  Supabase client service exists
+PASS  Core v4.9 QA checklist exists
+PASS  Product-backed design exists
+PASS  Wall/ceiling finishes exist
+PASS  No .env secret file packaged
+PASS  Production env template exists
+PASS  Migration consolidated_workflow.sql
+PASS  Migration remodel_workflow.sql
+PASS  Migration product_backed_design.sql
+PASS  Migration wall_ceiling_finishes.sql
+PASS  Migration client_approval.sql
+PASS  Backend gateway exists
+PASS  Product-backed AI flow exists
+PASS  Product search UI exists
+PASS  Backend API contract exists
+PASS  Runnable backend exists
+PASS  Backend auth middleware exists
+PASS  Production backend migration exists
+PASS  OpenAI provider migration exists
+PASS  OpenAI provider setup exists
+PASS  Docker backend exists
+PASS  Deployment guide exists
+PASS  Production check exists
+PASS  Bootstrap script exists
+PASS  Environment verifier exists
+PASS  Go-live guide exists
+PASS  Backend checker exists
+PASS  Supabase checker exists
+PASS  Android preview guide exists
+PASS  Service request flow exists
+PASS  Payment request service exists
+PASS  Remote push service exists
+PASS  Push outbox migration exists
+PASS  Automatic roof service exists
+PASS  Roof provider exists
+PASS  Roof measurement migration exists
+PASS  Stripe payment service exists
+PASS  Stripe server route exists
+PASS  Stripe webhook exists
+PASS  Expo push worker exists
+PASS  Roof geometry service exists
+PASS  Roof geometry provider exists
+PASS  Roof geometry migration exists
+PASS  Roof geometry contract exists
+PASS  Production root shell exists
+PASS  Core app preserved
+PASS  Production health service exists
+PASS  Source audit exists
+PASS  Release QA screen exists
+PASS  QA manifest exists
+PASS  Final QA plan exists
+PASS  Smoke test exists
+PASS  QA scenarios exist
+PASS  First live test card exists
+PASS  Live Supabase config exists
+PASS  Live Supabase checker exists
+PASS  Live Supabase documentation exists
+PASS  Vercel backend entry exists
+PASS  Vercel config exists
+PASS  Vercel deployment guide exists
+
+PRE-FLIGHT PASSED

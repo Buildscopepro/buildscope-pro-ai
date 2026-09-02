@@ -1,0 +1,25 @@
+export const CONSOLIDATED_CATALOG=[
+ {id:"shingles",name:"Architectural Shingles",unit:"square",cost:95,sale:145},
+ {id:"starter",name:"Starter Strip",unit:"LF",cost:.42,sale:.75},
+ {id:"ridge_cap",name:"Ridge Cap",unit:"LF",cost:1.45,sale:2.35},
+ {id:"underlayment",name:"Underlayment",unit:"ft²",cost:.09,sale:.18},
+ {id:"drip_edge",name:"Drip Edge",unit:"LF",cost:1.10,sale:2.25},
+ {id:"metal",name:"Metal Panels",unit:"ft²",cost:2.50,sale:4.50},
+ {id:"eave_trim",name:"Eave Trim",unit:"LF",cost:2.00,sale:4.00},
+ {id:"rake_trim",name:"Rake Trim",unit:"LF",cost:2.00,sale:4.00},
+ {id:"valley_trim",name:"Valley Trim",unit:"LF",cost:3.00,sale:5.50},
+ {id:"siding",name:"Siding",unit:"ft²",cost:2.60,sale:5.15},
+ {id:"soffit",name:"Soffit",unit:"LF",cost:4.50,sale:8.50},
+ {id:"gutters",name:"Gutters",unit:"LF",cost:3.75,sale:8.25},
+ {id:"coping",name:"Coping",unit:"LF",cost:7.50,sale:14.50},
+ {id:"2x4",name:"2x4 Lumber",unit:"piece",cost:4.25,sale:8.50},
+ {id:"2x6",name:"2x6 Lumber",unit:"piece",cost:7.50,sale:13.50},
+ {id:"1x2",name:"1x2 Lumber",unit:"piece",cost:2.25,sale:5.25},
+ {id:"1x4",name:"1x4 Lumber",unit:"piece",cost:3.60,sale:7.50}
+,
+ {id:"flooring",name:"Flooring",unit:"ft²",cost:2.80,sale:6.00},
+ {id:"cabinets",name:"Kitchen Cabinets",unit:"EA",cost:280,sale:550},
+ {id:"countertop",name:"Countertop",unit:"LF",cost:65,sale:125},
+ {id:"tile",name:"Tile",unit:"ft²",cost:3.25,sale:7.00},
+ {id:"vanity",name:"Bathroom Vanity",unit:"EA",cost:350,sale:700}
+];

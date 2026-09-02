@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "BuildScope Pro AI",
+    "slug": "buildscope-pro-ai",
+    "version": "5.15.0",
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "BuildScope Pro AI necesita tu ubicaci\u00f3n para localizar proyectos y medir propiedades."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BuildScope Pro AI necesita acceso a tus fotos para visualizar remodelaciones.",
+          "cameraPermission": "BuildScope Pro AI necesita acceso a la c\u00e1mara para visualizar remodelaciones."
+        }
+      ],
+      "@stripe/stripe-react-native"
+    ],
+    "android": {
+      "package": "com.buildscopeproai.app",
+      "versionCode": 1,
+      "adaptiveIcon": {},
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.buildscopeproai.app",
+      "buildNumber": "1"
+    },
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "buildscopeproai"
+  }
+}

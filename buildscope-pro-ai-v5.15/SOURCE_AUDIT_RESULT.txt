@@ -1,0 +1,12 @@
+PASS  Version 5.15.0
+PASS  Stripe SDK pinned
+PASS  Expo Constants pinned
+PASS  Expo Notifications pinned
+PASS  React aligned
+PASS  App URL scheme
+PASS  Production root shell
+PASS  Core app preserved
+PASS  Error boundary
+PASS  Production health service
+PASS  No private mobile .env packaged
+PASS  Secret-source scan
