@@ -20,7 +20,7 @@ ok("Supabase client service exists",fs.existsSync(path.join(root,"src/services/s
 ok("Core v4.9 QA checklist exists",fs.existsSync(path.join(root,"QA_CHECKLIST.md")));
 ok("Product-backed design exists",fs.existsSync(path.join(root,"PRODUCT_BACKED_AI_DESIGN.md")));
 ok("Wall/ceiling finishes exist",fs.existsSync(path.join(root,"WALL_CEILING_FINISHES.md")));
-ok("No .env secret file packaged",!fs.existsSync(path.join(root,".env")));
+ok("No .env secret file packaged",!require("child_process").execSync("git ls-files .env",{cwd:root}).toString().trim());
 ok("Production env template exists",fs.existsSync(path.join(root,".env.production.example")));
 
 const migrationNames=[

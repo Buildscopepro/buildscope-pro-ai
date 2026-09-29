@@ -22,7 +22,7 @@ const checks=[
  ["Mobile backend URL",Boolean(mobile.EXPO_PUBLIC_BUILDSCOPE_API_URL)],
  ["Server Supabase URL",Boolean(server.SUPABASE_URL)],
  ["Server Supabase publishable key",Boolean(server.SUPABASE_PUBLISHABLE_KEY)],
- ["Server Supabase service role",Boolean(server.SUPABASE_SERVICE_ROLE_KEY)],
+ ["Server Supabase service role",Boolean(server.SUPABASE_SECRET_KEY || server.SUPABASE_SERVICE_ROLE_KEY)],
  ["Server OpenAI API key",Boolean(server.OPENAI_API_KEY)],
 ];
 
